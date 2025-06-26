@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/providers.tsx"],"sourcesContent":["\"use client\"\n\nimport { ThemeProvider } from \"next-themes\"\n\nexport function Providers({ children }: { children: React.ReactNode }) {\n  return (\n    <ThemeProvider\n      attribute=\"class\"\n      defaultTheme=\"system\"\n      enableSystem\n      disableTransitionOnChange\n    >\n      {children}\n    </ThemeProvider>\n  )\n}\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIO,SAAS,UAAU,EAAE,QAAQ,EAAiC;IACnE,qBACE,6LAAC,mJAAA,CAAA,gBAAa;QACZ,WAAU;QACV,cAAa;QACb,YAAY;QACZ,yBAAyB;kBAExB;;;;;;AAGP;KAXgB","debugId":null}}]
+}
